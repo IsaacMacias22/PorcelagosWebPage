@@ -1,0 +1,51 @@
+footer{
+    background: #1b2a4e;
+    min-height: 70px;
+}
+footer p{
+    color: #f3f3f3;
+}
+
+.carousel-inner{
+    max-height: 50rem;
+}
+
+#img-equipo{
+    max-height: 30rem !important;
+    width: 60%;
+}
+
+.menu:hover {
+    background-color: rgb(230, 230, 230);
+}
+
+@media (max-width:992px){
+    .video{
+        width: 90% !important;
+    }
+}
+
+/* Media querys */
+@media (max-width:768px){
+    #intro, #equipo{
+        width: 90% !important;
+    }
+    #contacto{
+        width: 90% !important;
+    }
+    .fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+
+@media (max-width:576px){
+    .wrap{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    #contacto{
+        width: 90% !important;
+    }
+}
