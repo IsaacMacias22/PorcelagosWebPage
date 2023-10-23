@@ -10,10 +10,40 @@ footer p{
     max-height: 50rem;
 }
 
+.carousel-tamanio{
+    max-height: 30rem !important;
+}
+
 #img-equipo{
     max-height: 30rem !important;
     width: 60%;
 }
+
+#contenedor-img{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+#catalogo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#boton{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .menu:hover {
     background-color: rgb(230, 230, 230);
@@ -23,16 +53,25 @@ footer p{
     .video{
         width: 90% !important;
     }
+    .imagen{
+        height: 300px !important;
+    }
+    #promociones{
+        width: 75% !important;
+    }
 }
 
 /* Media querys */
 @media (max-width:768px){
-    #video, #sucursal{
+    #video, #sucursal, #promociones{
         width: 90% !important;
     }
     .fila{
         width: 100% !important;
         text-align: center;
+    }
+    .imagen{
+        height: 200px !important;
     }
 }
 
@@ -44,5 +83,11 @@ footer p{
     }
     #sucursal{
         width: 90% !important;
+    }
+    #promociones{
+        width: 100% !important;
+    }
+    .imagen{
+        height: 200px !important;
     }
 }
