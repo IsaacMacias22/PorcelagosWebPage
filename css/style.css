@@ -44,6 +44,10 @@ footer p{
     align-items: center;
 }
 
+.enlace{
+    text-decoration: none;
+    color: #5e1510;
+}
 
 .menu:hover {
     background-color: rgb(230, 230, 230);
@@ -59,6 +63,9 @@ footer p{
     #promociones{
         width: 75% !important;
     }
+    .salto{
+        display: none;
+    }
 }
 
 /* Media querys */
@@ -72,6 +79,9 @@ footer p{
     }
     .imagen{
         height: 200px !important;
+    }
+    #contacto{
+        width: 90% !important;
     }
 }
 
@@ -89,5 +99,8 @@ footer p{
     }
     .imagen{
         height: 200px !important;
+    }
+    #mapa{
+        height: 250px !important;
     }
 }
