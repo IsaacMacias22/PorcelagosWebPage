@@ -27,10 +27,7 @@ footer p{
 
 /* Media querys */
 @media (max-width:768px){
-    #intro, #equipo{
-        width: 90% !important;
-    }
-    #contacto{
+    #video, #sucursal{
         width: 90% !important;
     }
     .fila{
@@ -45,7 +42,7 @@ footer p{
         justify-content: center;
         text-align: center;
     }
-    #contacto{
+    #sucursal{
         width: 90% !important;
     }
 }
